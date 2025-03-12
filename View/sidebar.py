@@ -39,7 +39,7 @@ class Sidebar(customtkinter.CTkFrame):
         self.icon_size_expanded = (20, 20)
         self.icon_size_collapsed = (15, 15)
 
-        # Carga de íconos en dos tamaños (ajusta rutas e imágenes)
+      # Carga de íconos en dos tamaños (ajusta rutas e imágenes)
         self.icon_balance_expanded = customtkinter.CTkImage(
             dark_image=Image.open("icons/balance.jpg"), size=self.icon_size_expanded
         )
@@ -48,17 +48,17 @@ class Sidebar(customtkinter.CTkFrame):
         )
 
         self.icon_withdraw_expanded = customtkinter.CTkImage(
-            dark_image=Image.open("icons/withdraw.jpg"), size=self.icon_size_expanded
+            dark_image=Image.open("icons/withdraw.png"), size=self.icon_size_expanded
         )
         self.icon_withdraw_collapsed = customtkinter.CTkImage(
-            dark_image=Image.open("icons/withdraw.jpg"), size=self.icon_size_collapsed
+            dark_image=Image.open("icons/withdraw.png"), size=self.icon_size_collapsed
         )
 
         self.icon_deposit_expanded = customtkinter.CTkImage(
-            dark_image=Image.open("icons/deposit.jpg"), size=self.icon_size_expanded
+            dark_image=Image.open("icons/deposit.png"), size=self.icon_size_expanded
         )
         self.icon_deposit_collapsed = customtkinter.CTkImage(
-            dark_image=Image.open("icons/deposit.jpg"), size=self.icon_size_collapsed
+            dark_image=Image.open("icons/deposit.png"), size=self.icon_size_collapsed
         )
 
         self.icon_exit_expanded = customtkinter.CTkImage(

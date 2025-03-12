@@ -119,6 +119,9 @@ class Interfaz:
         elif new_selection == SidebarSelection.Withdraw:
             print("Withdraw pressed on Interfaz")
             SelectionInterfaz.Withdraw(self)
+        elif new_selection == SidebarSelection.EXIT:
+            print("EXIT pressed on Interfaz")
+            self.root.destroy()
         else:
             print(f"{new_selection.name} pressed on Interfaz")
 

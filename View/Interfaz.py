@@ -129,15 +129,15 @@ class Interfaz:
         for widget in self.content_frame.winfo_children():
             widget.destroy()
         self.label_superior = customtkinter.CTkLabel(
-            self.content_frame, text="Bienvenido al banco", font=("Arial", 18)
+            self.content_frame, text="Welcome to the bank", font=("Arial", 18)
         )
         self.label_superior.pack(pady=10)
         self.entrada = customtkinter.CTkEntry(
-            self.content_frame, placeholder_text="Escribe algo aquí y se muestra en consola"
+            self.content_frame, placeholder_text="Write something here and it's gonna show in console"
         )
         self.entrada.pack(pady=10)
         self.boton_mostrar = customtkinter.CTkButton(
-            self.content_frame, text="Mostrar en Consola", command=self.mostrar_texto
+            self.content_frame, text="Show in console", command=self.mostrar_texto
         )
         self.boton_mostrar.pack(pady=5)
 

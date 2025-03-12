@@ -1,2 +1,2 @@
 # Customtkinterminibank
-Custom tkinter minibank
+Prueba

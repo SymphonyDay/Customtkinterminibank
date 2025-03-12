@@ -27,8 +27,3 @@ class Controller:
             return True, self.model.saldo()
         except Exception as e:
             return False, str(e)
-if __name__ == "__main__":
-    model = BancoModel(1000)  # Balance inicial $1000
-    controller = Controller(model)
-    app = Interfaz(controller)
-    app.run()

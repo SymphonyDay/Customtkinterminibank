@@ -84,7 +84,7 @@ class Interfaz:
 
         # Crear ventana principal
         self.root = customtkinter.CTk()
-        self.root.title("Ejemplo de Menú Lateral")
+        self.root.title("Bank")
         self.root.geometry("800x500")
         self.root.grid_columnconfigure(1, weight=1)
         self.root.grid_rowconfigure(0, weight=1)
